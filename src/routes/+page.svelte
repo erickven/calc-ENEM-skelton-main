@@ -76,7 +76,7 @@
 </svelte:fragment>
 	<svelte:fragment slot="sidebarRight">
 	<Drawer>
-	<div id="sidebar-right" class="hidden lg:block w-0 lg:w-64">
+	<div id="sidebar-right" class="">
 	<aside>
 	<div id="resultado" class="w-screen h-full variant-ghost-surface mr-0 pt-3 text-center text-tertiary-300 rounded-xl text-xl">
 <h1 class="text-center mb-2"><strong>De Acordo Com A Sua Nota: </strong></h1>		
