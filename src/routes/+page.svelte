@@ -2,14 +2,20 @@
 	import { data, type Data } from './data';
 	import logo from '$lib/icons8-github-50.png';
 	import calculadora from '$lib/icons8-calculadora-de-maçã-50 (1).png'
+	import math from '$lib/icons8-matemática-50.png'
+	import abc from '$lib/icons8-abc-30.png'
+	import redacao from '$lib/icons8-documento-64.png'
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import { Avatar } from '@skeletonlabs/skeleton';
 	import { ProgressBar } from '@skeletonlabs/skeleton';
 	import { ListBox, ListBoxItem } from '@skeletonlabs/skeleton';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/Navigation.svelte';
+	import { page } from '$app/stores';
+	import { TabGroup, Tab, TabAnchor } from '@skeletonlabs/skeleton';
 	import { initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
 	initializeStores();
+	
 
 	const drawerStore = getDrawerStore();
 	function drawerOpen(): void {
@@ -58,21 +64,7 @@
 <body class="bg-gradient-to-r from-slate-900 to-surface-950 text-tertiary-500 text-xl flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <AppShell>
-	<!-- <svelte:fragment slot="sidebarLeft">
-    <div class="flex items-center">
-        <button class="lg:hidden btn btn-sm mr-4">
-            <span>
-                <svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
-                    <rect width="100" height="20" />
-                    <rect y="30" width="100" height="20" />
-                    <rect y="60" width="100" height="20" />
-                </svg>
-            </span>
-        </button>
-        <strong class="text-xl uppercase">Skeleton</strong>
-    </div>
-</svelte:fragment> -->
-	<svelte:fragment slot="header"><header><div class="bg-surface-100-800-token py-5 w-screen shadow-xl shadow-surface-950 flex flex-row justify-between"><button class="w-40 rounded-2xl ml-4 border-tertiary-500 text-sm sm:max-lg:h-8 border-2 bg-transparent text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="btn-icon variant-filled w-10 mr-2 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></div></header>
+	<svelte:fragment slot="header"><header><div class="bg-surface-100-800-token py-5 w-screen shadow-xl shadow-surface-950 flex flex-row justify-between"><button class="w-40 rounded-2xl ml-4 border-tertiary-500 text-sm sm:max-lg:h-8 border-2 bg-transparent text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button><span><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="btn-icon variant-filled w-10 mr-2 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span></div></header>
 </svelte:fragment>
 	<svelte:fragment slot="sidebarRight">
 	<Drawer>
@@ -127,11 +119,30 @@
 </div>
 </main>
 	<slot />
-	<svelte:fragment slot="pageFooter"><h3 class="pl-4 mb-3">Após Essa Nota Paia Vc Pretende Estudar: </h3>
-<ListBox multiple class="gap-5 inline">
-	<ListBoxItem bind:group={valueMultiple} name="medium" value="Math">Matematica</ListBoxItem>
-	<ListBoxItem bind:group={valueMultiple} name="medium" value="Portuguese">Português</ListBoxItem>
-	<ListBoxItem bind:group={valueMultiple} name="medium" value="Redacao">Redação</ListBoxItem>
-</ListBox></svelte:fragment>
+	<svelte:fragment slot="pageFooter"><div class="mt-24"><h3 class="pl-4 mb-3">Após Essa Nota Paia Vc Pretende Estudar: </h3>
+	<TabGroup 
+	justify="justify-center"
+	active="variant-filled-primary"
+	hover="hover:bg-primary-500"
+	flex="flex-1 lg:flex-none"
+	rounded=""
+	border=""
+	class="variant-ghost-surface w-full"
+>
+	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
+		<svelte:fragment slot="lead"><img src="{math}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
+		<span class="text-center">Matemática</span>
+	</TabAnchor>
+	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
+		<svelte:fragment slot="lead"><img src="{abc}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
+		<span class="text-center">Português</span>
+	</TabAnchor>
+	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
+		<svelte:fragment slot="lead"><img src="{redacao}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
+		<span class="text-center">Redação</span>
+	</TabAnchor>
+</TabGroup>
+</div>
+</svelte:fragment>
 </AppShell>
 </body>
