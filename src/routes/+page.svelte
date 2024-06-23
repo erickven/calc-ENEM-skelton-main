@@ -5,6 +5,9 @@
 	import math from '$lib/icons8-matemática-50.png'
 	import abc from '$lib/icons8-abc-30.png'
 	import redacao from '$lib/icons8-documento-64.png'
+	import fisica from '$lib/icons8-física-50.png'
+	import quimica from '$lib/icons8-sódio-50.png'
+	import biologia from '$lib/icons8-pegada-de-cachorro-30.png'
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import { Avatar } from '@skeletonlabs/skeleton';
 	import { ProgressBar } from '@skeletonlabs/skeleton';
@@ -61,7 +64,7 @@
 		return calcularScoreFinal(simuArr);
 	}
 </script>
-<body class="bg-gradient-to-r from-slate-900 to-surface-950 text-tertiary-500 text-xl flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
+<body class="bg-gradient-to-r from-slate-900 to-surface-950 text-tertiary-500 text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <AppShell>
 	<svelte:fragment slot="header"><header><div class="bg-surface-100-800-token py-5 w-screen shadow-xl shadow-surface-950 flex flex-row justify-between"><button class="w-40 rounded-2xl ml-4 border-tertiary-500 text-sm sm:max-lg:h-8 border-2 bg-transparent text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button><span><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="btn-icon variant-filled w-10 mr-2 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span></div></header>
@@ -119,7 +122,7 @@
 </div>
 </main>
 	<slot />
-	<svelte:fragment slot="pageFooter"><div class="mt-24"><h3 class="pl-4 mb-3">Após Essa Nota Paia Vc Pretende Estudar: </h3>
+	<svelte:fragment slot="pageFooter"><div class="mt-24"><h3 class="pl-4 mb-3">Após Essa Nota Paia Você Pretende Estudar: </h3>
 	<TabGroup 
 	justify="justify-center"
 	active="variant-filled-primary"
@@ -141,6 +144,18 @@
 		<svelte:fragment slot="lead"><img src="{redacao}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
 		<span class="text-center">Redação</span>
 	</TabAnchor>
+	<!-- <TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
+		<svelte:fragment slot="lead"><img src="{fisica}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
+		<span class="text-center">Física</span>
+	</TabAnchor>
+	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
+		<svelte:fragment slot="lead"><img src="{quimica}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
+		<span class="text-center">Quimíca</span>
+	</TabAnchor>
+	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
+		<svelte:fragment slot="lead"><img src="{biologia}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
+		<span class="text-center">Biologia</span>
+	</TabAnchor> -->
 </TabGroup>
 </div>
 </svelte:fragment>
