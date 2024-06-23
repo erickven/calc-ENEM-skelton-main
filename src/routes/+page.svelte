@@ -96,7 +96,7 @@
 	Esta calculadora serve para você entender que se tivesse aprendido matemática não teria tirado
 	essa nota paia 😹
 </p>
-<div id="tabelas" class="pl-7 mb-12 inline-block">
+<div id="tabelas" class="sm:max-2xl:pl-7 mb-12 inline-block">
 <table class="border-2 border-surface-700 border-collapse m-auto relative">
 	<tr class="bg-primary-800">
 		<th>Prova do Enem</th><th>Nota mínima</th><th>Sua nota</th><th>Peso</th><th>Nota com peso</th>
@@ -104,9 +104,9 @@
 	{#each arr as materia}
 		<tr class="sm:max-xl:table-fixed text-center">
 			<td class="">{materia.prova}</td>
-			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col bg-surface-800 m-1 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="0.01" bind:value={materia.minGrade} /></td>
-			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="780.00" bind:value={materia.nota} /></td>
-			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="1.50" bind:value={materia.peso} /></td>
+			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col bg-surface-800 sm:max-2xl:m-1 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="0.01" bind:value={materia.minGrade} /></td>
+			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:max-2xl:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="780.00" bind:value={materia.nota} /></td>
+			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:max-2xl:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="1.50" bind:value={materia.peso} /></td>
 			<td class="">{calcularNota(materia)}</td>
 		</tr>
 	{/each}
