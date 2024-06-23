@@ -16,6 +16,7 @@
 	import Navigation from '$lib/Navigation.svelte';
 	import { page } from '$app/stores';
 	import { TabGroup, Tab, TabAnchor } from '@skeletonlabs/skeleton';
+	import { AppBar } from '@skeletonlabs/skeleton';
 	import { initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
 	initializeStores();
 	
@@ -67,13 +68,19 @@
 <body class="bg-gradient-to-r from-slate-900 to-surface-950 text-tertiary-500 text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <AppShell>
-	<svelte:fragment slot="header"><header><div class="bg-surface-100-800-token py-5 w-screen shadow-xl shadow-surface-950 flex flex-row justify-between"><button class="w-40 rounded-2xl ml-4 border-tertiary-500 text-sm sm:max-lg:h-8 border-2 bg-transparent text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button><span><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="btn-icon variant-filled w-10 mr-2 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span></div></header>
+	<svelte:fragment slot="header">
+		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+	<svelte:fragment slot="lead"><button class="w-40 rounded-2xl border-tertiary-500 text-sm sm:max-lg:h-8 sm:py-2 border-2 bg-transparent text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button></svelte:fragment>
+<span><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span>
+	<svelte:fragment slot="trail"><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
+</svelte:fragment>
+</AppBar>
 </svelte:fragment>
 	<svelte:fragment slot="sidebarRight">
 	<Drawer>
 	<div id="sidebar-right" class="">
 	<aside>
-	<div id="resultado" class="w-screen h-full variant-ghost-surface mr-0 pt-3 text-center text-tertiary-300 rounded-xl text-xl">
+	<div id="resultado" class="w-full h-full variant-ghost-surface mr-0 pt-3 text-center text-tertiary-300 rounded-xl text-sm">
 <h1 class="text-center mb-2"><strong>De Acordo Com A Sua Nota: </strong></h1>		
 <h3>Com base nos dados entre 2020 e 2023</h3>
 {#each mathGrade as m}
@@ -96,7 +103,7 @@
 	Esta calculadora serve para você entender que se tivesse aprendido matemática não teria tirado
 	essa nota paia 😹
 </p>
-<div id="tabelas" class="sm:max-2xl:pl-7 mb-12 inline-block">
+<div id="tabelas" class="sm:pl-7 mb-12 inline-block">
 <table class="border-2 border-surface-700 border-collapse m-auto relative">
 	<tr class="bg-primary-800">
 		<th>Prova do Enem</th><th>Nota mínima</th><th>Sua nota</th><th>Peso</th><th>Nota com peso</th>
@@ -104,9 +111,9 @@
 	{#each arr as materia}
 		<tr class="sm:max-xl:table-fixed text-center">
 			<td class="">{materia.prova}</td>
-			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col bg-surface-800 sm:max-2xl:m-1 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="0.01" bind:value={materia.minGrade} /></td>
-			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:max-2xl:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="780.00" bind:value={materia.nota} /></td>
-			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:max-2xl:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="1.50" bind:value={materia.peso} /></td>
+			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="0.01" bind:value={materia.minGrade} /></td>
+			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="780.00" bind:value={materia.nota} /></td>
+			<td class=""><input type="number" class="w-16 rounded-lg pt-3 flex-col sm:m-1 bg-surface-800 sm:w-32 md:w-44 text-center sm:max-xl:w-16" placeholder="1.50" bind:value={materia.peso} /></td>
 			<td class="">{calcularNota(materia)}</td>
 		</tr>
 	{/each}
