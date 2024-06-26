@@ -86,11 +86,8 @@
 	<div id="sidebar-right" class="">
 	<aside>
 	<div id="resultado" class="w-full h-full variant-ghost-surface mr-0 pt-3 text-center text-tertiary-300 rounded-xl text-sm">
-<<<<<<< HEAD
 <h1 class="text-center mb-2"><strong>De acordo com a sua nota: </strong></h1>		
-=======
 <h1 class="text-center mb-2"><strong>De Acordo Com A Sua Nota: </strong></h1>		
->>>>>>> 4a4f392eeb7dcbac28f4a71140049acae8b2779f
 <h3>Com base nos dados entre 2020 e 2023</h3>
 {#each mathGrade as m}
 	<p>Caso você tivesse acertado {m[0]} questões em matemática sua nota seria:</p>
