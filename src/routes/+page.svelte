@@ -96,7 +96,7 @@
 	Esta calculadora serve para você entender que se tivesse aprendido matemática não teria tirado
 	essa nota paia 😹
 </p>
-<div id="tabelas" class="sm:max-2xl:pl-7 mb-12 inline-block">
+<div id="tabelas" class="sm:pl-7 mb-12 inline-block">
 <table class="border-2 border-surface-700 border-collapse m-auto relative">
 	<tr class="bg-primary-800">
 		<th>Prova do Enem</th><th>Nota mínima</th><th>Sua nota</th><th>Peso</th><th>Nota com peso</th>
