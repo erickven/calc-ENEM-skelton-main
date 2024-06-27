@@ -131,8 +131,10 @@
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" class="bg-surface-100 shadow-xl dark:bg-surface-800" slotDefault="place-self-center" slotTrail="place-content-end">
 	<svelte:fragment slot="lead"><button class="text-sm w-40 rounded-2xl border-surface-800 dark:border-tertiary-500 text-sm sm:max-lg:h-8 sm:py-2 border-2 bg-transparent text-surface-800 dark:text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button></svelte:fragment>
-<span><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span>
-	<svelte:fragment slot="trail"><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="bg-transparent hover:bg-primary-500 shadow-2xl btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
+<span><h1 class="text-center inline-block text-lg sm:text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span>
+	<svelte:fragment slot="trail"><div class="flex justify-center">
+		<LightSwitch />
+		</div><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="bg-transparent hover:bg-primary-500 shadow-2xl btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
 </svelte:fragment>
 </AppBar>
 </svelte:fragment>
@@ -153,9 +155,6 @@
 <hr>
 <p class="text-center text-lg py-3 my-3 bg-primary-700 dark:bg-tertiary-500 text-tertiary-50 dark:text-tertiary-900"><strong>Nunca fez, quer fazer o enem esse ano ou não sabe se a universidade publica do seu estado aceita enem?</strong></p>
 <Navigation />
-<div class="flex justify-center">
-<LightSwitch />
-</div>
 </div>
 </aside>
 </div>
