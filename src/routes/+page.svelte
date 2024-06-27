@@ -116,7 +116,7 @@
 
 .merriweather-black-italic {
   font-family: "Merriweather", serif;
-  font-weight: 900;
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -125,14 +125,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </svelte:head>
-<body class="merriweather-black-italic bg-surface-50 dark:bg-gradient-to-r from-slate-900 to-surface-950 text-center text-surface-900 dark:text-tertiary-500 font-bold dark:font-normal text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
+<body class="bg-surface-50 dark:bg-gradient-to-r from-slate-900 to-surface-950 text-center text-surface-900 dark:text-tertiary-500 font-bold dark:font-normal text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" class="bg-surface-100 shadow-xl dark:bg-surface-800" slotDefault="place-self-center" slotTrail="place-content-end">
-	<svelte:fragment slot="lead"><button class="w-40 rounded-2xl bg-tertiary-500 shadow-lgborder-surface-800 dark:border-tertiary-500 text-sm sm:max-lg:h-8 sm:py-2 border-2 bg-transparent text-surface-800 dark:text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button></svelte:fragment>
+	<svelte:fragment slot="lead"><button class="text-sm w-40 rounded-2xl border-surface-800 dark:border-tertiary-500 text-sm sm:max-lg:h-8 sm:py-2 border-2 bg-transparent text-surface-800 dark:text-tertiary-500" on:click={drawerOpen}><strong>Mostrar Resultados</strong></button></svelte:fragment>
 <span><h1 class="text-center inline-block text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span>
-	<svelte:fragment slot="trail"><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
+	<svelte:fragment slot="trail"><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="bg-transparent hover:bg-primary-500 shadow-2xl btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
 </svelte:fragment>
 </AppBar>
 </svelte:fragment>
@@ -151,7 +151,7 @@
 	<ProgressBar />
 {/each}
 <hr>
-<p class="text-center text-lg py-3 my-3 bg-primary-700 dark:bg-tertiary-500 text-terciary-50 dark:text-tertiary-900"><strong>Nunca fez, quer fazer o enem esse ano ou não sabe se a universidade publica do seu estado aceita enem?</strong></p>
+<p class="text-center text-lg py-3 my-3 bg-primary-700 dark:bg-tertiary-500 text-tertiary-50 dark:text-tertiary-900"><strong>Nunca fez, quer fazer o enem esse ano ou não sabe se a universidade publica do seu estado aceita enem?</strong></p>
 <Navigation />
 <div class="flex justify-center">
 <LightSwitch />
@@ -166,7 +166,7 @@
 	Esta calculadora serve para você entender que se tivesse aprendido matemática não teria tirado
 	essa nota paia 😹
 </p>
-<div id="tabelas" class="sm:pl-7 mb-12 inline-block">
+<div id="tabelas" class="sm:py-5 mb-12 inline-block">
 <table class="border-2 shadow-xl dark:shadow-sm border-surface-700 border-collapse m-auto relative">
 	<tr class="bg-primary-600 dark:bg-primary-800">
 		<th>Prova do Enem</th><th>Nota mínima</th><th>Sua nota</th><th>Peso</th><th>Nota com peso</th>
@@ -190,7 +190,7 @@
 	<td><i>Nota do estudante (B/A) = {calcularScoreFinal(arr).toFixed(2)}</i></td>
 </table>
 <h3 class="h3 text-center font-bold mt-10 underline">Algumas Duvidas</h3>
-<Accordion class="mt-6 bg-tertiary-500 dark:bg-surface-900 text-left shadow-xl rounded-2xl">
+<Accordion class="mt-6 bg-surface-900 dark:bg-surface-900 text-tertiary-500 text-left shadow-xl rounded-2xl">
 	<AccordionItem open>
 		<svelte:fragment slot="lead"><img src="{question}" class="w-8" alt="" srcset=""></svelte:fragment>
 		<svelte:fragment slot="summary"><strong>Oque fazer para tirar uma boa nota no Enem?</strong></svelte:fragment>
