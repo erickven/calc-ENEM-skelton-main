@@ -70,7 +70,7 @@
 		return calcularScoreFinal(simuArr);
 	}
 </script>
-<body class="bg-surface-50 dark:bg-gradient-to-r from-slate-900 to-surface-950 text-center text-surface-900 dark:text-tertiary-500 text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
+<body class="bg-surface-50 dark:bg-gradient-to-r from-slate-900 to-surface-950 text-center text-surface-900 dark:text-tertiary-500 font-bold dark:font-normal text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <AppShell>
 	<svelte:fragment slot="header">
