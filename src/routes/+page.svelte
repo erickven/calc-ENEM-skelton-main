@@ -112,7 +112,7 @@
 	essa nota paia 😹
 </p>
 <div id="tabelas" class="sm:pl-7 mb-12 inline-block">
-<table class="border-2 border-surface-700 border-collapse m-auto relative">
+<table class="border-2 shadow-xl dark:shadow-sm border-surface-700 border-collapse m-auto relative">
 	<tr class="bg-primary-600 dark:bg-primary-800">
 		<th>Prova do Enem</th><th>Nota mínima</th><th>Sua nota</th><th>Peso</th><th>Nota com peso</th>
 	</tr>
@@ -135,7 +135,7 @@
 	<td><i>Nota do estudante (B/A) = {calcularScoreFinal(arr).toFixed(2)}</i></td>
 </table>
 <h3 class="h3 text-center font-bold mt-10 underline">Algumas Duvidas</h3>
-<Accordion class="mt-6 bg-tertiary-700 dark:bg-surface-900 text-left">
+<Accordion class="mt-6 bg-tertiary-500 dark:bg-surface-900 text-left">
 	<AccordionItem open>
 		<svelte:fragment slot="lead"><img src="{question}" class="w-8" alt="" srcset=""></svelte:fragment>
 		<svelte:fragment slot="summary"><strong>Oque fazer para tirar uma boa nota no Enem?</strong></svelte:fragment>
@@ -162,9 +162,9 @@
 	</AccordionItem>
 	<AccordionItem>
 		<svelte:fragment slot="lead"><img src="{pergunta}" class="w-8" alt="" srcset=""></svelte:fragment>
-		<svelte:fragment slot="summary"><strong>Tirei uma nota ruim, e agora oque fazer?</strong></svelte:fragment>
+		<svelte:fragment slot="summary"><strong>Tirei uma nota ruim, e agora o que fazer?</strong></svelte:fragment>
 		<svelte:fragment slot="content">
-			<p>Se com a sua atual nota voce nao conseguiu alcancar oque queria entao estude mais caso queira fazer sua faculdade dos sonhos, principalmente se voce busca fazer Direito, Medicina, Engenharia da Computação e etc..., pois sao areas meio complicadas de se entrar entao se esforce bastante, garanto que tudo parece mais facil quando se tem determinacao.</p>
+			<p>Se com a sua atual nota você não conseguiu alcançar o que queria então estude mais caso queira fazer sua faculdade dos sonhos, principalmente se você busca fazer Direito, Medicina, Engenharia da Computação e etc..., pois são áreas meio complicadas de se entrar então se esforce bastante, garanto que tudo parece mais fácil quando se tem determinação.</p>
 		</svelte:fragment>
 	</AccordionItem>
 	<AccordionItem>
