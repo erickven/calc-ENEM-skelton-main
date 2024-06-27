@@ -125,7 +125,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </svelte:head>
-<body class="merriweather-bold bg-surface-50 dark:bg-gradient-to-r from-slate-900 to-surface-950 text-center text-surface-900 dark:text-tertiary-500 font-bold dark:font-normal text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
+<body class="merriweather-black-italic bg-surface-50 dark:bg-gradient-to-r from-slate-900 to-surface-950 text-center text-surface-900 dark:text-tertiary-500 font-bold dark:font-normal text-sm md:max-2xl:text-lg flex-col space-between m-0 p-0 overflow-x-auto" data-theme="crimson">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <AppShell>
 	<svelte:fragment slot="header">
