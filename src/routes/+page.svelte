@@ -9,6 +9,7 @@
 	import problema from '$lib/icons8-problem-50.png'
 	import fisica from '$lib/icons8-física-50.png'
 	import quimica from '$lib/icons8-sódio-50.png'
+	import duvida from '$lib/icons8-decisão-50 (1).png'
 	import biologia from '$lib/icons8-pegada-de-cachorro-30.png'
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import { Avatar } from '@skeletonlabs/skeleton';
@@ -190,6 +191,13 @@
 </table>
 <h3 class="h3 text-center font-bold mt-10 underline">Algumas Duvidas</h3>
 <Accordion class="mt-6 bg-surface-900 dark:bg-surface-900 text-tertiary-500 text-left shadow-xl rounded-2xl">
+	<AccordionItem>
+		<svelte:fragment slot="lead"><img src="{duvida}" class="w-8" alt="" srcset=""></svelte:fragment>
+		<svelte:fragment slot="summary"><strong>Como se usa a calculadora?</strong></svelte:fragment>
+		<svelte:fragment slot="content">
+			<p>Para usar a calculadora você deve consultar suas notas no site do inep, e inserir as suas notas no campo acima, ao final de tudo isso vá no canto superior esquerdo a tela onde tem um botão escrito "Mostrar Resultados", ao apertar nele lá estará o resultado da sua nota caso você tivesse acertado determinadas questões de matemática na prova.</p>
+		</svelte:fragment>
+	</AccordionItem>
 	<AccordionItem>
 		<svelte:fragment slot="lead"><img src="{question}" class="w-8" alt="" srcset=""></svelte:fragment>
 		<svelte:fragment slot="summary"><strong>Oque fazer para tirar uma boa nota no Enem?</strong></svelte:fragment>
