@@ -190,7 +190,7 @@
 </table>
 <h3 class="h3 text-center font-bold mt-10 underline">Algumas Duvidas</h3>
 <Accordion class="mt-6 bg-surface-900 dark:bg-surface-900 text-tertiary-500 text-left shadow-xl rounded-2xl">
-	<AccordionItem open>
+	<AccordionItem>
 		<svelte:fragment slot="lead"><img src="{question}" class="w-8" alt="" srcset=""></svelte:fragment>
 		<svelte:fragment slot="summary"><strong>Oque fazer para tirar uma boa nota no Enem?</strong></svelte:fragment>
 		<svelte:fragment slot="content">
