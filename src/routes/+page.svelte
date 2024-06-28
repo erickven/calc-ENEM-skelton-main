@@ -134,7 +134,7 @@
 <span><h1 class="text-center inline-block text-lg sm:text-2xl px-4 font-serif"><strong>Calculadora do ENEM</strong></h1></span>
 	<svelte:fragment slot="trail"><div class="flex justify-center">
 		<LightSwitch />
-		</div><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="bg-transparent hover:bg-primary-500 shadow-2xl btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
+		</div><span><div class="flex flex-row"><a href="https://github.com/erickven" target="_blank" class="bg-transparent hover:bg-primary-400 shadow-2xl btn-icon variant-filled w-10 sm:max-lg:h-8"><img class="w-8 flex" src="{logo}" alt="" srcset=""></a></div></span>
 </svelte:fragment>
 </AppBar>
 </svelte:fragment>
