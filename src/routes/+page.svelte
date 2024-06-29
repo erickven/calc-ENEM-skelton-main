@@ -195,7 +195,7 @@
 		<svelte:fragment slot="lead"><img src="{duvida}" class="w-8" alt="" srcset=""></svelte:fragment>
 		<svelte:fragment slot="summary"><strong>Como se usa a calculadora?</strong></svelte:fragment>
 		<svelte:fragment slot="content">
-			<p>Para usar a calculadora você deve consultar suas notas no site do MEC, e inserir as suas notas no campo acima, ao final de tudo isso vá no canto superior esquerdo a tela onde tem um botão escrito "Mostrar Resultados", ao apertar nele lá estará o resultado da sua nota caso você tivesse acertado determinadas questões de matemática na prova.</p>
+			<p>Para usar a calculadora você deve consultar suas notas no site do MEC, e inserir as suas notas no campo acima, ao final de tudo isso vá no canto superior esquerdo da tela onde tem um botão escrito "Mostrar Resultados", ao apertar nele lá estará o resultado da sua nota caso você tivesse acertado determinadas questões de matemática na prova.</p>
 		</svelte:fragment>
 	</AccordionItem>
 	<AccordionItem>
