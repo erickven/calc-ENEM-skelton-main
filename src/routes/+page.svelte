@@ -362,7 +362,7 @@
 				<h3 class="my-10 h3 font-bold underline underline-offset-8">
 					Caso queira praticar aqui estão alguns simulados para você resolver.
 				</h3>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="underline underline-offset-4 font-bold text-center">Questão 1</h5>
 					<h5 class="">
 						Um construtor precisa revestir o piso de uma sala retangular. Para essa tarefa, ele
@@ -390,7 +390,7 @@
 						<li>e)0,04x + 0,12y</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 2</h5>
 					<h5 class="">
 						Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois
@@ -418,7 +418,7 @@
 						<li>e) 100</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 3</h5>
 					<h5 class="">
 						Um vaso decorativo quebrou e os donos vão encomendar outro para ser pintado com as
@@ -435,7 +435,7 @@
 						<li>e)90</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 4</h5>
 					<h5 class="">
 						Após o término das inscrições de um concurso, cujo número de vagas é fixo, foi divulgado
@@ -454,7 +454,7 @@
 						<li>e)19 960</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 5</h5>
 					<h5 class="">
 						O Índice de Desenvolvimento Humano (IDH) mede a qualidade de vida dos países para além
@@ -476,7 +476,7 @@
 						<li>e)aumento em proporção inversa com o tempo</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 6</h5>
 					<h5 class="">
 						O prefeito de uma cidade deseja promover uma festa popular no parque municipal para
@@ -497,7 +497,7 @@
 						</ol>
 					</h5>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 7</h5>
 					<h5 class="">
 						A probabilidade de um empregado permanecer em uma dada empresa particular por 10 anos ou
@@ -519,7 +519,7 @@
 						</ol>
 					</h5>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 8</h5>
 					<h5 class="">
 						Um técnico gráfico constrói uma nova folha a partir das medidas de uma folha A0. As
@@ -538,7 +538,7 @@
 						<li>e)845/4840</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 9</h5>
 					<h5 class="">
 						Na construção de um conjunto habitacional de casas populares, todas serão feitas num
@@ -558,7 +558,7 @@
 						<li>e)50 e 20</li>
 					</ol>
 				</div>
-				<div class="text-left ml-4 md:mx-40">
+				<div class="text-left ml-6 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 10</h5>
 					<h5 class="">
 						Um confeiteiro deseja fazer um bolo cuja receita indica a utilização de açúcar e farinha
