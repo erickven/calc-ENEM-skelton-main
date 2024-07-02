@@ -362,7 +362,7 @@
 				<h3 class="my-10 h3 font-bold underline underline-offset-8">
 					Caso queira praticar aqui estão alguns simulados para você resolver.
 				</h3>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="underline underline-offset-4 font-bold text-center">Questão 1</h5>
 					<h5 class="">
 						Um construtor precisa revestir o piso de uma sala retangular. Para essa tarefa, ele
@@ -390,7 +390,7 @@
 						<li>e)0,04x + 0,12y</li>
 					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 2</h5>
 					<h5 class="">
 						Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois
@@ -418,7 +418,7 @@
 						<li>e) 100</li>
 					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 3</h5>
 					<h5 class="">
 						Um vaso decorativo quebrou e os donos vão encomendar outro para ser pintado com as
@@ -435,7 +435,7 @@
 						<li>e)90</li>
 					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 4</h5>
 					<h5 class="">
 						Após o término das inscrições de um concurso, cujo número de vagas é fixo, foi divulgado
@@ -454,7 +454,7 @@
 						<li>e)19 960</li>
 					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 5</h5>
 					<h5 class="">
 						O Índice de Desenvolvimento Humano (IDH) mede a qualidade de vida dos países para além
@@ -476,7 +476,7 @@
 						<li>e)aumento em proporção inversa com o tempo</li>
 					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 6</h5>
 					<h5 class="">
 						O prefeito de uma cidade deseja promover uma festa popular no parque municipal para
@@ -497,7 +497,7 @@
 						</ol>
 					</h5>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 7</h5>
 					<h5 class="">
 						A probabilidade de um empregado permanecer em uma dada empresa particular por 10 anos ou
@@ -519,31 +519,36 @@
 						</ol>
 					</h5>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 8</h5>
 					<h5 class="">
 						Um técnico gráfico constrói uma nova folha a partir das medidas de uma folha A0. As
-						medidas de uma folha A0 são 595 mm de largura e 840 mm de comprimento. <br> A nova folha foi
-						construída do seguinte modo: acrescenta uma polegada na medida da largura e 16 polegadas
-						na medida do comprimento. Esse técnico precisa saber a razão entre as medidas da largura
-						e do comprimento, respectivamente, dessa nova folha. <br>Considere 2,5 cm como valor
-						aproximado para uma polegada. <br> Qual é a razão entre as medidas da largura e do
-						comprimento da nova folha? <br></h5>
-						<ol class="my-4">
-							<li>a)1/16</li>
-							<li>b)620/1240</li>
-							<li>c)596/650</li>
-							<li>d)598/880</li>
-							<li>e)845/4840</li>
-						</ol>
-					
+						medidas de uma folha A0 são 595 mm de largura e 840 mm de comprimento. <br /> A nova
+						folha foi construída do seguinte modo: acrescenta uma polegada na medida da largura e 16
+						polegadas na medida do comprimento. Esse técnico precisa saber a razão entre as medidas
+						da largura e do comprimento, respectivamente, dessa nova folha. <br />Considere 2,5 cm
+						como valor aproximado para uma polegada. <br /> Qual é a razão entre as medidas da
+						largura e do comprimento da nova folha? <br />
+					</h5>
+					<ol class="my-4">
+						<li>a)1/16</li>
+						<li>b)620/1240</li>
+						<li>c)596/650</li>
+						<li>d)598/880</li>
+						<li>e)845/4840</li>
+					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 9</h5>
 					<h5 class="">
-						Na construção de um conjunto habitacional de casas populares, todas serão feitas num mesmo modelo, ocupando, cada uma delas, terrenos cujas dimensões são iguais a 20 m de comprimento por 8 m de largura. Visando a comercialização dessas casas, antes do início das obras, a empresa resolveu apresentá-las por meio de maquetes construídas numa escala de 1 : 200.
-						<br>
-						As medidas do comprimento e da largura dos terrenos, respectivamente, em centímetros, na maquete construída, foram de
+						Na construção de um conjunto habitacional de casas populares, todas serão feitas num
+						mesmo modelo, ocupando, cada uma delas, terrenos cujas dimensões são iguais a 20 m de
+						comprimento por 8 m de largura. Visando a comercialização dessas casas, antes do início
+						das obras, a empresa resolveu apresentá-las por meio de maquetes construídas numa escala
+						de 1 : 200.
+						<br />
+						As medidas do comprimento e da largura dos terrenos, respectivamente, em centímetros, na
+						maquete construída, foram de
 					</h5>
 					<ol class="my-4">
 						<li>a)4 e 10.</li>
@@ -553,13 +558,15 @@
 						<li>e)50 e 20</li>
 					</ol>
 				</div>
-				<div class="text-left ml-8 md:mx-40">
+				<div class="text-left ml-4 md:mx-40">
 					<h5 class="font-bold text-center underline underline-offset-4">Questão 10</h5>
 					<h5 class="">
-						Um confeiteiro deseja fazer um bolo cuja receita indica a utilização de açúcar e farinha de trigo em quantidades fornecidas em gramas. Ele sabe que uma determinada xícara utilizada para medir os ingredientes comporta 120 gramas de farinha de trigo e que três dessas xícaras de açúcar correspondem, em gramas, a quatro de farinha de trigo.
-						<br>
+						Um confeiteiro deseja fazer um bolo cuja receita indica a utilização de açúcar e farinha
+						de trigo em quantidades fornecidas em gramas. Ele sabe que uma determinada xícara
+						utilizada para medir os ingredientes comporta 120 gramas de farinha de trigo e que três
+						dessas xícaras de açúcar correspondem, em gramas, a quatro de farinha de trigo.
+						<br />
 						Quantos gramas de açúcar cabem em uma dessas xícaras?
-					
 					</h5>
 					<ol class="my-4">
 						<li>a)30</li>
