@@ -199,15 +199,230 @@
 								>
 							</p>
 							<Navigation />
-						</div>
-					</aside>
+					</div></aside>
+				</div>
+				<h3 class="my-10 h3 font-bold underline underline-offset-8">
+					Caso queira praticar aqui estão alguns simulados para você resolver.
+				</h3>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="underline underline-offset-4 font-bold text-center mb-3">Questão 1</h5>
+					<h5 class="">
+						Um construtor precisa revestir o piso de uma sala retangular. Para essa tarefa, ele
+						dispõe de dois tipos de cerâmicas:
+						<br />
+						a) cerâmica em forma de quadrado de lado 20 cm, que custa R$ 8,00 por unidade;
+						<br />
+						b) cerâmica em forma de triângulo retângulo isósceles de catetos com 20 cm, que custa R$
+						6,00 por unidade.
+						<br />
+						A sala tem largura de 5 m e comprimento de 6 m.
+						<br />
+						O construtor deseja gastar a menor quantia possível com a compra de cerâmica. Sejam x o número
+						de peças de cerâmica de forma quadrada e y o número de peças de cerâmica de forma triangular.
+						<br />
+						Isso significa, então, encontrar valores para x e y tais que 0,04x + 0,02y > 30 e que tornem
+						o menor possível valor de
+					</h5>
+					<br />
+					<ol class="my-4">
+						<li>a)8x + 6y</li>
+						<li>b)6x + 8y</li>
+						<li>c)0,32x + 0,12y</li>
+						<li>d)0,32x + 0,02y</li>
+						<li>e)0,04x + 0,12y</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 2</h5>
+					<h5 class="">
+						Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois
+						antígenos, A e B, na superfície das células vermelhas do sangue. Como dois antígenos
+						estão envolvidos, os quatro tipos sanguíneos distintos são: <br />
+					</h5>
+					<ol class="my-4">
+						<li>• Tipo A: apenas o antígeno A está presente;</li>
+						<li>• Tipo B: apenas o antígeno B está presente;</li>
+						<li>• Tipo AB: ambos os antígenos estão presentes;</li>
+						<li>• Tipo O: nenhum dos antígenos está presente.</li>
+					</ol>
+					<h5>
+						Foram coletadas amostras de sangue de 200 pessoas e, após análise laboratorial, foi
+						identificado que em 100 amostras está presente o antígeno A, em 110 amostras há presença
+						do antígeno B e em 20 amostras nenhum dos antígenos está presente. Dessas pessoas que
+						foram submetidas à coleta de sangue, o número das que possuem o tipo sanguíneo A é igual
+						a:
+					</h5>
+					<ol class="my-4">
+						<li>a)30</li>
+						<li>b)60</li>
+						<li>c)70</li>
+						<li>d)90</li>
+						<li>e)100</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 3</h5>
+					<h5 class="">
+						Um vaso decorativo quebrou e os donos vão encomendar outro para ser pintado com as
+						mesmas características. Eles enviam uma foto do vaso na escala 1 : 5 (em relação ao
+						objeto original) para um artista. Para ver melhor os detalhes do vaso o artista solicita
+						uma cópia impressa da foto com dimensões triplicadas em relação às dimensões da foto
+						original. Na cópia impressa, o vaso quebrado tem uma altura de 30 centímetros.
+					</h5>
+					<ol class="my-4">
+						<li>a)2</li>
+						<li>b)18</li>
+						<li>c)56</li>
+						<li>d)60</li>
+						<li>e)90</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 4</h5>
+					<h5 class="">
+						Após o término das inscrições de um concurso, cujo número de vagas é fixo, foi divulgado
+						que a razão entre o número de candidatos e o número de vagas, nesta ordem, era igual a
+						300. Entretanto, as inscrições foram prorrogadas, inscrevendo-se mais 4 000 candidatos,
+						fazendo com que a razão anteriormente referida passasse a ser igual a 400. Todos os
+						candidatos inscritos fizeram a prova, e o total de candidatos aprovados foi igual à
+						quantidade de vagas. Os demais candidatos foram reprovados.
+					</h5>
+					<h5>Nessas condições, quantos foram os candidatos reprovados?</h5>
+					<ol class="my-4">
+						<li>a)11 950</li>
+						<li>b)11 970</li>
+						<li>c)15 960</li>
+						<li>d)15 970</li>
+						<li>e)19 960</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 5</h5>
+					<h5 class="">
+						O Índice de Desenvolvimento Humano (IDH) mede a qualidade de vida dos países para além
+						dos indicadores econômicos. O IDH do Brasil tem crescido ano a ano e atingiu os
+						seguintes patamares: 0,600 em 1990; 0,665 em 2000; 0,715 em 2010. Quanto mais perto de
+						1,00, maior é o desenvolvimento do país.
+						<br />
+						O Globo. Caderno Economia, 3 nov. 2011 (adaptado).
+						<br />
+						Observando o comportamento do IDH nos períodos citados, constata-se que, ao longo do período
+						1990-2010, o IDH brasileiro
+					</h5>
+					<br />
+					<ol class="my-4">
+						<li>a)diminuiu com variações decenais crescentes.</li>
+						<li>b)diminuiu em proporção direta com o tempo.</li>
+						<li>c)aumentou com variações decenais decrescentes.</li>
+						<li>d)aumentou em proporções direta com o tempo</li>
+						<li>e)aumento em proporção inversa com o tempo</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 6</h5>
+					<h5 class="">
+						O prefeito de uma cidade deseja promover uma festa popular no parque municipal para
+						comemorar o aniversário de fundação do município. Sabe-se que esse parque possui formato
+						retangular, com 120 m de comprimento por 150 m de largura. Além disso, para segurança
+						das pessoas presentes no local, a polícia recomenda que a densidade média, num evento
+						dessa natureza, não supere quatro pessoas por metro quadrado.
+						<br />
+						Seguindo as recomendações de segurança estabelecidas pela polícia, qual é o número máximo
+						de pessoas que poderão estar presentes na festa?
+						<br />
+						<ol class="my-4">
+							<li>a)1.000</li>
+							<li>b)4.500</li>
+							<li>c)18.000</li>
+							<li>d)72.000</li>
+							<li>e)120.000</li>
+						</ol>
+					</h5>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 7</h5>
+					<h5 class="">
+						A probabilidade de um empregado permanecer em uma dada empresa particular por 10 anos ou
+						mais é de 1/6.
+						<br />
+						Um homem e uma mulher começam a trabalhar nessa companhia no mesmo dia. Suponha que não haja
+						nenhuma relação entre o trabalho dele e o dela, de modo que seus tempos de permanência na
+						firma são independentes entre si.
+						<br />
+						A probabilidade de ambos, homem e mulher, permanecerem nessa empresa por menos de 10 anos
+						é de:
+						<br />
+						<ol class="my-4">
+							<li>a)60/36</li>
+							<li>b)25/36</li>
+							<li>c)24/36</li>
+							<li>d)12/36</li>
+							<li>e)1/36</li>
+						</ol>
+					</h5>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 8</h5>
+					<h5 class="">
+						Um técnico gráfico constrói uma nova folha a partir das medidas de uma folha A0. As
+						medidas de uma folha A0 são 595 mm de largura e 840 mm de comprimento. <br /> A nova
+						folha foi construída do seguinte modo: acrescenta uma polegada na medida da largura e 16
+						polegadas na medida do comprimento. Esse técnico precisa saber a razão entre as medidas
+						da largura e do comprimento, respectivamente, dessa nova folha. <br />Considere 2,5 cm
+						como valor aproximado para uma polegada. <br /> Qual é a razão entre as medidas da
+						largura e do comprimento da nova folha? <br />
+					</h5>
+					<ol class="my-4">
+						<li>a)1/16</li>
+						<li>b)620/1240</li>
+						<li>c)596/650</li>
+						<li>d)598/880</li>
+						<li>e)845/4840</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 9</h5>
+					<h5 class="">
+						Na construção de um conjunto habitacional de casas populares, todas serão feitas num
+						mesmo modelo, ocupando, cada uma delas, terrenos cujas dimensões são iguais a 20 m de
+						comprimento por 8 m de largura. Visando a comercialização dessas casas, antes do início
+						das obras, a empresa resolveu apresentá-las por meio de maquetes construídas numa escala
+						de 1 : 200.
+						<br />
+						As medidas do comprimento e da largura dos terrenos, respectivamente, em centímetros, na
+						maquete construída, foram de
+					</h5>
+					<ol class="my-4">
+						<li>a)4 e 10.</li>
+						<li>b)5 e 2.</li>
+						<li>c)10 e 4.</li>
+						<li>d)20 e 8</li>
+						<li>e)50 e 20</li>
+					</ol>
+				</div>
+				<div class="text-left ml-6 md:mx-40 my-16">
+					<h5 class="font-bold text-center underline underline-offset-4 mb-3">Questão 10</h5>
+					<h5 class="">
+						Um confeiteiro deseja fazer um bolo cuja receita indica a utilização de açúcar e farinha
+						de trigo em quantidades fornecidas em gramas. Ele sabe que uma determinada xícara
+						utilizada para medir os ingredientes comporta 120 gramas de farinha de trigo e que três
+						dessas xícaras de açúcar correspondem, em gramas, a quatro de farinha de trigo.
+						<br />
+						Quantos gramas de açúcar cabem em uma dessas xícaras?
+					</h5>
+					<ol class="my-4">
+						<li>a)30</li>
+						<li>b)40</li>
+						<li>c)90</li>
+						<li>d)160</li>
+						<li>e)360</li>
+					</ol>
 				</div>
 			</Drawer>
 		</svelte:fragment>
 		<main>
 			<p class="py-3 px-4 mb-12 font-bold my-8">
-				Esta calculadora serve para você entender que se tivesse aprendido matemática não teria
-				tirado essa nota paia 😹
+				Esta calculadora serve para você calcular a sua nota obtida no ENEM e saber o quanto você teria tirado se tivesse acertado determinadas questões de matemática.
 			</p>
 			<div id="tabelas" class="sm:py-5 mb-12 inline-block">
 				<table
@@ -358,230 +573,11 @@
 					</AccordionItem>
 					<!-- ... -->
 				</Accordion>
-
-				<h3 class="my-10 h3 font-bold underline underline-offset-8">
-					Caso queira praticar aqui estão alguns simulados para você resolver.
-				</h3>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="underline underline-offset-4 font-bold text-center">Questão 1</h5>
-					<h5 class="">
-						Um construtor precisa revestir o piso de uma sala retangular. Para essa tarefa, ele
-						dispõe de dois tipos de cerâmicas:
-						<br />
-						a) cerâmica em forma de quadrado de lado 20 cm, que custa R$ 8,00 por unidade;
-						<br />
-						b) cerâmica em forma de triângulo retângulo isósceles de catetos com 20 cm, que custa R$
-						6,00 por unidade.
-						<br />
-						A sala tem largura de 5 m e comprimento de 6 m.
-						<br />
-						O construtor deseja gastar a menor quantia possível com a compra de cerâmica. Sejam x o número
-						de peças de cerâmica de forma quadrada e y o número de peças de cerâmica de forma triangular.
-						<br />
-						Isso significa, então, encontrar valores para x e y tais que 0,04x + 0,02y > 30 e que tornem
-						o menor possível valor de
-					</h5>
-					<br />
-					<ol class="my-4">
-						<li>a)8x + 6y</li>
-						<li>b)6x + 8y</li>
-						<li>c)0,32x + 0,12y</li>
-						<li>d)0,32x + 0,02y</li>
-						<li>e)0,04x + 0,12y</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 2</h5>
-					<h5 class="">
-						Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois
-						antígenos, A e B, na superfície das células vermelhas do sangue. Como dois antígenos
-						estão envolvidos, os quatro tipos sanguíneos distintos são: <br />
-					</h5>
-					<ol class="my-4">
-						<li>• Tipo A: apenas o antígeno A está presente;</li>
-						<li>• Tipo B: apenas o antígeno B está presente;</li>
-						<li>• Tipo AB: ambos os antígenos estão presentes;</li>
-						<li>• Tipo O: nenhum dos antígenos está presente.</li>
-					</ol>
-					<h5>
-						Foram coletadas amostras de sangue de 200 pessoas e, após análise laboratorial, foi
-						identificado que em 100 amostras está presente o antígeno A, em 110 amostras há presença
-						do antígeno B e em 20 amostras nenhum dos antígenos está presente. Dessas pessoas que
-						foram submetidas à coleta de sangue, o número das que possuem o tipo sanguíneo A é igual
-						a:
-					</h5>
-					<ol class="my-4">
-						<li>a) 30</li>
-						<li>b) 60</li>
-						<li>c) 70</li>
-						<li>d) 90</li>
-						<li>e) 100</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 3</h5>
-					<h5 class="">
-						Um vaso decorativo quebrou e os donos vão encomendar outro para ser pintado com as
-						mesmas características. Eles enviam uma foto do vaso na escala 1 : 5 (em relação ao
-						objeto original) para um artista. Para ver melhor os detalhes do vaso o artista solicita
-						uma cópia impressa da foto com dimensões triplicadas em relação às dimensões da foto
-						original. Na cópia impressa, o vaso quebrado tem uma altura de 30 centímetros.
-					</h5>
-					<ol class="my-4">
-						<li>a)2</li>
-						<li>b)18</li>
-						<li>c)56</li>
-						<li>d)60</li>
-						<li>e)90</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 4</h5>
-					<h5 class="">
-						Após o término das inscrições de um concurso, cujo número de vagas é fixo, foi divulgado
-						que a razão entre o número de candidatos e o número de vagas, nesta ordem, era igual a
-						300. Entretanto, as inscrições foram prorrogadas, inscrevendo-se mais 4 000 candidatos,
-						fazendo com que a razão anteriormente referida passasse a ser igual a 400. Todos os
-						candidatos inscritos fizeram a prova, e o total de candidatos aprovados foi igual à
-						quantidade de vagas. Os demais candidatos foram reprovados.
-					</h5>
-					<h5>Nessas condições, quantos foram os candidatos reprovados?</h5>
-					<ol class="my-4">
-						<li>a)11 950</li>
-						<li>b)11 970</li>
-						<li>c)15 960</li>
-						<li>d)15 970</li>
-						<li>e)19 960</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 5</h5>
-					<h5 class="">
-						O Índice de Desenvolvimento Humano (IDH) mede a qualidade de vida dos países para além
-						dos indicadores econômicos. O IDH do Brasil tem crescido ano a ano e atingiu os
-						seguintes patamares: 0,600 em 1990; 0,665 em 2000; 0,715 em 2010. Quanto mais perto de
-						1,00, maior é o desenvolvimento do país.
-						<br />
-						O Globo. Caderno Economia, 3 nov. 2011 (adaptado).
-						<br />
-						Observando o comportamento do IDH nos períodos citados, constata-se que, ao longo do período
-						1990-2010, o IDH brasileiro
-					</h5>
-					<br />
-					<ol class="my-4">
-						<li>a)diminuiu com variações decenais crescentes.</li>
-						<li>b)diminuiu em proporção direta com o tempo.</li>
-						<li>c)aumentou com variações decenais decrescentes.</li>
-						<li>d)aumentou em proporções direta com o tempo</li>
-						<li>e)aumento em proporção inversa com o tempo</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 6</h5>
-					<h5 class="">
-						O prefeito de uma cidade deseja promover uma festa popular no parque municipal para
-						comemorar o aniversário de fundação do município. Sabe-se que esse parque possui formato
-						retangular, com 120 m de comprimento por 150 m de largura. Além disso, para segurança
-						das pessoas presentes no local, a polícia recomenda que a densidade média, num evento
-						dessa natureza, não supere quatro pessoas por metro quadrado.
-						<br />
-						Seguindo as recomendações de segurança estabelecidas pela polícia, qual é o número máximo
-						de pessoas que poderão estar presentes na festa?
-						<br />
-						<ol class="my-4">
-							<li>a)1.000</li>
-							<li>b)4.500</li>
-							<li>c)18.000</li>
-							<li>d)72.000</li>
-							<li>e)120.000</li>
-						</ol>
-					</h5>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 7</h5>
-					<h5 class="">
-						A probabilidade de um empregado permanecer em uma dada empresa particular por 10 anos ou
-						mais é de 1/6.
-						<br />
-						Um homem e uma mulher começam a trabalhar nessa companhia no mesmo dia. Suponha que não haja
-						nenhuma relação entre o trabalho dele e o dela, de modo que seus tempos de permanência na
-						firma são independentes entre si.
-						<br />
-						A probabilidade de ambos, homem e mulher, permanecerem nessa empresa por menos de 10 anos
-						é de:
-						<br />
-						<ol class="my-4">
-							<li>a)60/36</li>
-							<li>b)25/36</li>
-							<li>c)24/36</li>
-							<li>d)12/36</li>
-							<li>e)1/36</li>
-						</ol>
-					</h5>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 8</h5>
-					<h5 class="">
-						Um técnico gráfico constrói uma nova folha a partir das medidas de uma folha A0. As
-						medidas de uma folha A0 são 595 mm de largura e 840 mm de comprimento. <br /> A nova
-						folha foi construída do seguinte modo: acrescenta uma polegada na medida da largura e 16
-						polegadas na medida do comprimento. Esse técnico precisa saber a razão entre as medidas
-						da largura e do comprimento, respectivamente, dessa nova folha. <br />Considere 2,5 cm
-						como valor aproximado para uma polegada. <br /> Qual é a razão entre as medidas da
-						largura e do comprimento da nova folha? <br />
-					</h5>
-					<ol class="my-4">
-						<li>a)1/16</li>
-						<li>b)620/1240</li>
-						<li>c)596/650</li>
-						<li>d)598/880</li>
-						<li>e)845/4840</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 9</h5>
-					<h5 class="">
-						Na construção de um conjunto habitacional de casas populares, todas serão feitas num
-						mesmo modelo, ocupando, cada uma delas, terrenos cujas dimensões são iguais a 20 m de
-						comprimento por 8 m de largura. Visando a comercialização dessas casas, antes do início
-						das obras, a empresa resolveu apresentá-las por meio de maquetes construídas numa escala
-						de 1 : 200.
-						<br />
-						As medidas do comprimento e da largura dos terrenos, respectivamente, em centímetros, na
-						maquete construída, foram de
-					</h5>
-					<ol class="my-4">
-						<li>a)4 e 10.</li>
-						<li>b)5 e 2.</li>
-						<li>c)10 e 4.</li>
-						<li>d)20 e 8</li>
-						<li>e)50 e 20</li>
-					</ol>
-				</div>
-				<div class="text-left ml-6 md:mx-40">
-					<h5 class="font-bold text-center underline underline-offset-4">Questão 10</h5>
-					<h5 class="">
-						Um confeiteiro deseja fazer um bolo cuja receita indica a utilização de açúcar e farinha
-						de trigo em quantidades fornecidas em gramas. Ele sabe que uma determinada xícara
-						utilizada para medir os ingredientes comporta 120 gramas de farinha de trigo e que três
-						dessas xícaras de açúcar correspondem, em gramas, a quatro de farinha de trigo.
-						<br />
-						Quantos gramas de açúcar cabem em uma dessas xícaras?
-					</h5>
-					<ol class="my-4">
-						<li>a)30</li>
-						<li>b)40</li>
-						<li>c)90</li>
-						<li>d)160</li>
-						<li>e)360</li>
-					</ol>
-				</div>
-			</div>
 		</main>
 		<slot />
 		<svelte:fragment slot="pageFooter"
 			><div class="mt-24">
-				<h3 class="pl-4 mb-3">Após essa nota paia você pretende estudar:</h3>
+				<h3 class="pl-4 mb-3">Não está satisfeito com a sua nota?aqui estão alguns links para você poder estudar um pouco mais:</h3>
 				<TabGroup
 					justify="justify-center"
 					active="variant-filled-primary"
@@ -624,18 +620,6 @@
 						>
 						<span class="text-center">Redação</span>
 					</TabAnchor>
-					<!-- <TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
-		<svelte:fragment slot="lead"><img src="{fisica}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
-		<span class="text-center">Física</span>
-	</TabAnchor>
-	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
-		<svelte:fragment slot="lead"><img src="{quimica}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
-		<span class="text-center">Quimíca</span>
-	</TabAnchor>
-	<TabAnchor href="/" class="border-2 border-primary-900" selected={$page.url.pathname === '/'}>
-		<svelte:fragment slot="lead"><img src="{biologia}" class="w-9 m-auto" alt="matematica" srcset=""></svelte:fragment>
-		<span class="text-center">Biologia</span>
-	</TabAnchor> -->
 				</TabGroup>
 			</div>
 		</svelte:fragment>
